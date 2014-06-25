@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="utf-8" /> 
+ 
+ 
+<?php 
+$sitename="Glass.Gallery"; 
+$sitedescription="The Online Glass Gallery"; 
+$sitepath="http://people.oregonstate.edu/~hamc/glassgallery/"; 
+?> 
+<title> 
+<?php echo $pagetitle." | ".$sitename." | ".$sitedescription;?> 
+</title> 
+ 
+<link rel="stylesheet" href ="<?php echo $sitepath; ?>screen.css" media="screen" /> 
+</head>
+<body> 
+<header> 
+<h1><a href ="<?php echo $sitepath; ?>" style="color:black;">Glass.Gallery</a>
+</h1>
+<h3><a href ="<?php echo $sitepath; ?>">Home</a>
+<a href="<?php echo $sitepath; ?>upload/index.php">Upload Images</a>
+<a href="<?php echo $sitepath; ?>upload/view.php">View Uploads</a>
+</h3> 	
+</header> 
+<section id="content"> 
+
